@@ -1,2 +1,2 @@
 # GoT-Visualisation
-Visualisation project about Game of Thrones
+Visualisation project about A Song Of Ice And Fire books and Game of Thrones serie.
