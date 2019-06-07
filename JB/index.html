@@ -1,0 +1,19 @@
+<head>
+	<script src="//unpkg.com/timelines-chart"></script>
+	<script src="js/random2-data.js"></script>
+</head>
+
+<body>
+	<div id="myPlot"></div>
+
+	<script>
+		TimelinesChart()(document.getElementById('myPlot'))
+			.xTickFormat(n => +n)
+			.timeFormat('%Q')
+			.data(genRandomData(true))
+			//.data('data/data.json')
+			//.data(getRandomData(true))
+			.zQualitative(true)
+			;
+	</script>
+</body>
